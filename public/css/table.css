@@ -1,0 +1,138 @@
+@import url('variables.css');
+
+/* Table */
+
+.table>thead>tr>th, .table>tfoot>tr>th {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6c757d;
+    font-size: 0.8rem;
+
+}
+.table>thead>tr>th{
+    border-bottom: 1px solid var(--sh-primary-color) !important;
+}
+.table>tfoot>tr>th {
+    border-top: 1px solid var(--sh-primary-color) !important;
+}
+.table>thead>tr>th:hover{
+    border-style: none;
+}
+
+.table tbody td {
+    font-size: 0.75rem;
+}
+
+.dt-length, .dt-search, .dt-info {
+    font-size: 0.75rem !important;
+}
+.paging_simple_numbers{
+    font-size: 0.75rem !important;
+}
+.pagination {
+    --bs-pagination-padding-x: 0.4rem !important;
+    --bs-pagination-padding-y: 0.2rem !important;
+    --bs-pagination-font-size: 0.75rem!important;
+}
+select[name='Taula_length']{
+    appearance: none;
+    font-size: 0.75rem !important;
+    padding-top: .2rem !important;
+    padding-bottom: .2rem !important;
+}
+select[name='Taula_length']:focus{
+    border:1px solid var(--sh-primary-color) !important;
+}
+select[name='Taula_length'] option{
+    appearance: none;
+    border:1px solid var(--sh-primary-color) !important;
+}
+select[name='Taula_length'] option:hover{
+    background-color: var(--sh-primary-color) !important;
+}
+select[name='Taula_length']::-ms-expand {
+    display: none;
+}
+
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.table .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.table .btn-sm {
+    font-size: 0.75rem;
+}
+
+.table img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+
+.paginate_button.previous:before {
+    content: '← ';
+}
+
+.paginate_button.next:after {
+    content: ' →';
+}
+.input-search{
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .25rem .5rem;
+    font-size: .7rem;
+    border: var(--bs-border-width) solid #ededed;
+    border-radius: var(--bs-border-radius-sm);
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    min-height: calc(1.5em + .5rem + calc(var(--bs-border-width)* 2));
+
+}
+.input-search:focus, .input-search:hover{
+    border-color: var(--sh-primary-color)
+}
+.table-actions {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    /* Espacio entre los botones */
+}
+
+.table-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.table-actions .btn-warning {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.table-actions .btn-danger {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.table-actions .btn-info {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}

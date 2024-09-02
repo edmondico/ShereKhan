@@ -1,0 +1,179 @@
+@import url('variables.css');
+
+/* Estilos para que el footer esté siempre al fondo */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: var(--font-body);
+    margin: 0 0 100px;
+    /* Margen inferior del tamaño del footer */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Modo Claro */
+body.light-mode {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light-mode);
+}
+
+/* Elements Pagina */
+.titol {
+    font-family: var(--font-title);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--sh-gris-5);
+}
+.titol_welcome{
+    color: var(--sh-verd-2);
+
+}
+.logo_petit{
+    height: 40px;
+}
+.logo_gran{
+    height: 55px;
+}
+
+/* Modo Oscuro */
+body.dark-mode {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark-mode);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--neutral-color-3) !important;
+    border-bottom: 1px solid var(--sh-primary-color) !important;
+    color: var(--sh-primary-color) !important;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: var(--sh-primary-color) !important;
+}
+.navbar-brand{
+    font-family: var(--font-logo);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--secondary-color-1) !important;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--neutral-color-3);
+    color: var(--text-color-dark);
+    transition: background-color 0.3s, color 0.3s;
+    border-top: 1px solid var(--sh-primary-color) !important;
+}
+
+
+
+/* Personaliza los botones de acción */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color-2);
+    border-color: var(--secondary-color-2);
+}
+.btn-primary:active {
+    background-color: var(--secondary-color-2);
+    border-color: var(--secondary-color-2);
+}
+.btn-outline-primary{
+    background-color: white important;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.btn-outline-primary:hover {
+    background-color: var(--primary-color)!important;
+    border-color:var(--primary-color)!important;
+    color:var(--neutral-color-1);
+}
+.btn-outline-primary:active {
+    background-color: var(--primary-color)!important;
+    border-color:var(--primary-color)!important;
+    color: var(--neutral-color-1);
+}
+.btn-secundari {
+    background-color: var(--secondary-color-2);
+    border-color: var(--secondary-color-2);
+    color: var(--neutral-color-1);
+}
+
+.btn-secundari:hover {
+    background-color:var(--sh-verd);
+    border-color: var(--sh-verd);
+    color: var(--neutral-color-1);
+}
+.btn-secundari:active {
+    background-color: var(--sh-verd);
+    border-color: var(--sh-verd);
+    color: var(--neutral-color-1);
+}
+
+.btn-danger {
+    background-color: var(--secondary-color-1);
+    border-color: var(--secondary-color-1);
+}
+
+/* Ajustes para el Modo Oscuro */
+body.dark-mode .navbar {
+    background-color: var(--analogous-color-1) !important;
+}
+
+body.dark-mode .footer {
+    background-color: var(--analogous-color-2);
+    color: var(--text-color-light);
+}
+
+body.dark-mode .table-hover tbody tr:hover {
+    background-color: var(--analogous-color-3);
+}
+
+body.dark-mode .table thead th {
+    /* color: var(--text-color-light); */
+}
+
+body.dark-mode .table td,
+body.dark-mode .table th {
+    /*color: var(--text-color-light);*/
+}
+body.dark-mode .btn-primary {
+    background-color: blue !important;
+    border-color: white !important;
+}
+
+.active>.page-link, .page-link.active {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Clases Personalizadas */
+
+.sensefondo{
+    background-color: transparent !important;
+}
+
+/* Table Actions Styling */
+.table-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre los botones */
+}
+

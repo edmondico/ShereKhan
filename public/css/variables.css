@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orienta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orienta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --sh-primary-color: #C03000;
+    --sh-taronja: #EC5024;
+    --sh-taronja-1: #f7600769;  
+    --sh-taronja-3: #E27125; /* #de712578*/
+    --sh-taronja-2: #f08740;
+    --sh-taronja-4: #C93B26;
+    --sh-taronja-5: #C93B26;    
+    --sh-vermellos: #69101D;
+    --sh-lilos: #932649;
+    --sh-lilos-1:#491229;
+    --sh-lilos-2:#300F39;
+    --sh-gris-5: #36312b;
+    --sh-verd: #B6AE33;
+    --sh-verd-1: #9faf38;
+    --sh-verd-2: #57AA46;
+    --sh-verd-5: #14783B;    
+    --sh-verd-6: #1D592C;
+    --sh-verd-7: #1C5E2F;
+    --sh-verd-8: #1A6448;
+    --sh-verd-9: #2E4135;
+
+
+    --primary-color: #C03000;/* Rojo Vibrante */    
+    --secondary-color-1: #F76007;/* Naranja */    
+    --secondary-color-2: #F9A825;    /* Amarillo mostaza */
+    --secondary-color-3: #D4AF37;    /* Dorado */
+    --secondary-color-4: #F2E4D4;/* Beige Claro */
+    --analogous-color-1: #801800;/* Rojo oscuro */
+    --analogous-color-2: #7D050C;/* Granate */
+    --analogous-color-3: #99332A;/* Burdeos */
+
+    /* Colores Neutrales */
+    --neutral-color-1: #FFFFFF;    /* Blanco */
+    --neutral-color-2: #000000;    /* Negro */
+    --neutral-color-3: #F2F2F2;    /* Gris claro */
+    --neutral-color-4: #808080;    /* Gris oscuro */
+    --neutral-color-5: #E8E8E8;    /* Gris Claro */
+
+    /* Colores de Texto */
+    --text-color-dark: #333333;
+    --text-color-light: #FFFFFF;
+
+
+    /* Colores de Acento */
+    --accent-color-1: #004080;    /* Azul Marino */
+    --accent-color-2: #60B550;    /* Verde Suave */
+
+    /* Colores Complementarios */
+    --complementary-color-1: #00c086;
+    /* Verde Complementario */
+    --complementary-color-2: #00865e;
+    /* Verde Oscuro Complementario */
+
+    /* Colores de Spotlight */
+    --spotlight-color-1: #C98A74;
+    --spotlight-color-2: #D9F3FF;
+    --spotlight-color-3: #5F7999;
+
+    /* Variables de Modo Claro */
+    --bg-color-light: var(--neutral-color-1);
+    --text-color-light-mode: var(--text-color-dark);
+
+    /* Variables de Modo Oscuro */
+    --bg-color-dark: #121212;
+    --text-color-dark-mode: var(--text-color-light);
+
+    --analogo1: #862400;
+    --analogo2: #c06600;
+    --analogo3: #c00037;
+    --analogo4: #860026;
+
+    --mono1: #862400;
+    --mono2: #ffd0bf;
+    --mono3: #ffa280;
+    --mono4: #ffffff;
+
+    --triade1: #862400;
+    --triade2: #8dc000;
+    --triade3: #638600;
+    --triade4: #2613c0;
+
+    --complementary1: #862400;
+    --complementary2: #ffd0bf;
+    --complementary3: #00c086;
+    --complementary4: #00865e;
+
+    --spot1: #C98A74;
+    --spot2: #D9F3FF;
+    --spot3: #5F7999;
+
+
+    --font-body: 'Roboto', sans-serif;
+    --font-title: 'Montserrat', sans-serif;
+    --font-logo: "Ink Free", sans-serif;
+}
