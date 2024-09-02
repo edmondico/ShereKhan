@@ -177,3 +177,9 @@ body.dark-mode .btn-primary {
     gap: 10px; /* Espacio entre los botones */
 }
 
+.table-actions2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre los botones */
+}
